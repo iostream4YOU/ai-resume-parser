@@ -49,7 +49,7 @@ Extract the most relevant information. If any field is not found, use an empty s
 
     let response, data, aiResponse;
     try {
-      response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${geminiApiKey}`, {
+      response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${geminiApiKey}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -119,4 +119,5 @@ Extract the most relevant information. If any field is not found, use an empty s
     console.error('Error parsing PDF resume:', error);
     return NextResponse.json({ error: 'Failed to parse PDF resume', details: String(error) }, { status: 500 });
   }
+
 } 
