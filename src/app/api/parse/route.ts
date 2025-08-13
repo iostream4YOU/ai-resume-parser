@@ -46,7 +46,7 @@ Please return a JSON object with the following structure:
 
 Extract the most relevant information. If any field is not found, use an empty string for strings or empty array for arrays. Return only valid JSON without any additional text.`;
 
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${geminiApiKey}`, {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${geminiApiKey}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -115,4 +115,5 @@ Extract the most relevant information. If any field is not found, use an empty s
       { status: 500 }
     );
   }
+
 } 
