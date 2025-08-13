@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Resume Parser",
-  description: "Parse resumes and extract structured data",
+  title: "Resume Parser Demo",
+  description: "Parse resumes and extract structured JSON data",
 };
 
 export default function RootLayout({
