@@ -85,16 +85,4 @@ The AI parser extracts the following information from resumes:
 
 - `POST /api/parse` - Parses resume text using Gemini AI
 
-## Learn More
-
-To learn more about the technologies used:
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Google Gemini API](https://ai.google.dev/docs)
-- [Tailwind CSS](https://tailwindcss.com/docs)
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
-
 Remember to add your Gemini API key as an environment variable in your Vercel deployment settings.
