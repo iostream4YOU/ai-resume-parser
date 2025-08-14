@@ -70,8 +70,8 @@ Extract the most relevant information. If any field is not found, use an empty s
             }
           ],
           generationConfig: {
-            temperature: 0.1,
-            maxOutputTokens: 1000,
+            temperature: 0,
+            maxOutputTokens: 2048,
           }
         }),
       });
@@ -121,4 +121,5 @@ Extract the most relevant information. If any field is not found, use an empty s
   }
 
 } 
+
 
